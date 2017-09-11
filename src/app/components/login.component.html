@@ -16,6 +16,9 @@
   <div [hidden]="!loginService.checkLogin()">
     <h3>Logged In Successfully! </h3>
     <h2>Welcome back, {{currentUserName}}!</h2>
+    <a class="item" routerLink="/my-album" routerLinkActive="active">
+      Go to My Album
+    </a>
   </div>
 
 </div>
